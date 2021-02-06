@@ -45,7 +45,7 @@ public class AppLoginTest {
 		config=new ConfigReader();
 		capture = new ScreenCapture();
 		 extent = new ExtentReports("./extent/report.html", true);
-		PropertyConfigurator.configure("./myfiles/log4j.properties");
+		PropertyConfigurator.configure("./myreports/log4j.properties");
 		
 	}
 	
@@ -85,7 +85,7 @@ public void verifyvalidlogin() throws Exception {
 	
 	String screenShotPath2 = capture.screencapture(driver,"verify password");
     String screen2 = test.addScreenCapture(screenShotPath2);
-    test.log(LogStatus.FAIL, "Snapshot below: "+screen2);
+    test.log(LogStatus.INFO, "Snapshot below: "+screen2);
 	
 	
 	Apploginpage.clickloginbutton();
