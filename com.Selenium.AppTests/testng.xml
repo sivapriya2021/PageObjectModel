@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.Selenium.AppTests.App"/>
+      <class name="com.AppProject.AppLoginTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

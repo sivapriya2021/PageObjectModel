@@ -5,35 +5,35 @@
       <![CDATA[verify user name]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-02-05T19:29:39 CST" name="Default suite" finished-at="2021-02-05T19:29:51 CST" duration-ms="12036">
+  <suite started-at="2021-02-05T19:58:42 CST" name="Suite" finished-at="2021-02-05T19:58:53 CST" duration-ms="11037">
     <groups>
     </groups>
-    <test started-at="2021-02-05T19:29:39 CST" name="Default test" finished-at="2021-02-05T19:29:51 CST" duration-ms="12036">
+    <test started-at="2021-02-05T19:58:42 CST" name="Test" finished-at="2021-02-05T19:58:53 CST" duration-ms="11037">
       <class name="com.AppProject.AppLoginTest">
-        <test-method is-config="true" signature="AppSuite()[pri:0, instance:com.AppProject.AppLoginTest@4b5a5ed1]" started-at="2021-02-05T19:29:39 CST" name="AppSuite" finished-at="2021-02-05T19:29:39 CST" duration-ms="222" status="PASS">
+        <test-method is-config="true" signature="AppSuite()[pri:0, instance:com.AppProject.AppLoginTest@59d016c9]" started-at="2021-02-05T19:58:42 CST" name="AppSuite" finished-at="2021-02-05T19:58:42 CST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppSuite -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.AppProject.AppLoginTest@4b5a5ed1]" started-at="2021-02-05T19:29:39 CST" name="launchBrowser" finished-at="2021-02-05T19:29:44 CST" duration-ms="5185" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.AppProject.AppLoginTest@59d016c9]" started-at="2021-02-05T19:58:42 CST" name="launchBrowser" finished-at="2021-02-05T19:58:47 CST" duration-ms="4232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyvalidlogin()[pri:1, instance:com.AppProject.AppLoginTest@4b5a5ed1]" started-at="2021-02-05T19:29:44 CST" name="verifyvalidlogin" description="Verify valid login" finished-at="2021-02-05T19:29:48 CST" duration-ms="3525" status="PASS">
+        <test-method signature="verifyvalidlogin()[pri:1, instance:com.AppProject.AppLoginTest@59d016c9]" started-at="2021-02-05T19:58:47 CST" name="verifyvalidlogin" description="Verify valid login" finished-at="2021-02-05T19:58:50 CST" duration-ms="3795" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[verify user name]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyvalidlogin -->
-        <test-method signature="verifyinvalidlogin()[pri:2, instance:com.AppProject.AppLoginTest@4b5a5ed1]" started-at="2021-02-05T19:29:48 CST" name="verifyinvalidlogin" description="Verify invalid login" finished-at="2021-02-05T19:29:49 CST" duration-ms="1762" status="PASS">
+        <test-method signature="verifyinvalidlogin()[pri:2, instance:com.AppProject.AppLoginTest@59d016c9]" started-at="2021-02-05T19:58:50 CST" name="verifyinvalidlogin" description="Verify invalid login" finished-at="2021-02-05T19:58:52 CST" duration-ms="1971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyinvalidlogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.AppProject.AppLoginTest@4b5a5ed1]" started-at="2021-02-05T19:29:49 CST" name="closeBrowser" finished-at="2021-02-05T19:29:51 CST" duration-ms="1532" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.AppProject.AppLoginTest@59d016c9]" started-at="2021-02-05T19:58:52 CST" name="closeBrowser" finished-at="2021-02-05T19:58:53 CST" duration-ms="996" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.AppProject.AppLoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
